@@ -1,0 +1,16 @@
+body{
+
+}
+.conic,.spherical{
+    width: 500px;
+    height: 350px;
+    color: white;
+}
+
+.conic{
+    background: repeating-conic-gradient(from 0deg, rgb(253, 216, 6), rgb(255, 42, 0) 16deg, rgb(255, 9, 107) 30deg);
+}
+
+.spherical{
+    background: radial-gradient(circle,#ff007f 0%, rgb(0, 0, 174)90%);
+}

@@ -1,0 +1,45 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: relative;
+}
+
+.red{
+    display: flex;
+    border-radius: 40px;
+    align-items:end;
+    padding-bottom: 160px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-evenly;
+    height: 60vh;
+    width: 60vw;
+    background-color: red;
+}
+
+.btn{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 7px;
+    font-size: 28px;
+}
+
+.blue{
+    background-color: rgb(56, 95, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 60px;
+    height: 20vh;
+    width: 70vw;
+    position: absolute;
+    top: 200px;
+    color: white;
+    border-radius: 10px;
+}

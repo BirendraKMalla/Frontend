@@ -1,0 +1,20 @@
+.conic, .linear, .radial {
+    width: 300px;
+    height: 300px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.linear {
+    background: repeating-linear-gradient(45deg, #ff4d4d 0px, #4dff88 30px);
+}
+
+.radial {
+    background: repeating-radial-gradient(circle, #3498db 0px, #3498db 20px, #2c3e50 20px, #2c3e50 40px);
+}
+
+.conic {
+    background: repeating-conic-gradient(from 0deg,#f1c40f 0deg 30deg,#e67e22 30deg 60deg);
+}

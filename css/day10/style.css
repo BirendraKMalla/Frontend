@@ -1,0 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 600px;
+    width: 600px;
+    background-color: chocolate;
+    text-align: justify;
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/19/08/32/flower-729510_1280.jpg");
+    /* overflow: scroll; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.data {
+    backdrop-filter: blur(10px);
+}

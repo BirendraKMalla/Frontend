@@ -1,0 +1,13 @@
+#b:hover {
+  transform: translateX(500px);
+  transition-duration: 5s;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  /* linear -> same speed */
+  /* ease -> slow, mid -> fast, end -> slow */
+  /* default is ease */
+  transition-timing-function:ease;
+  transition-delay: 3s;
+}

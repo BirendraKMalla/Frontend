@@ -1,0 +1,20 @@
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/057/128/739/non_2x/dramatic-lighting-on-a-textured-wall-creates-a-captivating-contrast-between-blue-and-orange-hues-in-an-empty-moody-room-setting-free-photo.jpg");
+    font-family: sans-serif;
+}
+
+.heading{
+    margin: 15px 5px;
+}
+
+.heading, .loginAndRequestDemo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+}
+
+.planhat{
+    font-weight: 800;
+}

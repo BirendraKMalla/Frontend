@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: red;
+    /* justify-content: space-evenly;   */
+    /* right */
+    /* Flex is given to the parent */
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.box{
+    
+    /* display: inline; */
+    /* inline does not take height and width */
+    height: 100px;
+    width: 100px;
+    /* therefore we use inline-block */
+    background-color: burlywood;
+    margin: 10px;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}

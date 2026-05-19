@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* repeat(auto-fit, ...): Creates as many columns as will fit.
+     minmax(250px, 1fr): Each column is at least 250px wide, 
+                         and expands to fill available space (1fr). 
+    */
+}
+
+.div{
+    background-color: lightblue;
+    height: 30px;
+}

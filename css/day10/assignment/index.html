@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Social Icons -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Login Form -->
+        <div class="form-box">
+            <h2>Login</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <div class="password-container">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-regular fa-eye-slash"></i>
+                </div>
+                <a href="#" class="forgot-link">Forgot password?</a>
+                <button type="submit" class="btn-primary">Login</button>
+                <p class="switch-text">Don't have an account? <a href="#">Signup</a></p>
+                
+                <div class="separator">Or</div>
+                
+                <button type="button" class="btn-social facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Login with Facebook
+                </button>
+                <button type="button" class="btn-social google">
+                    <img src="https://media.wired.com/photos/5926ffe47034dc5f91bed4e8/3:2/w_2560%2Cc_limit/google-logo.jpg" alt="Google"> Login with Google
+                </button>
+            </form>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="form-box">
+            <h2>Signup</h2>
+            <form>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Create password" required>
+                <div class="password-container">
+                    <input type="password" placeholder="Confirm password" required>
+                    <i class="fa-regular fa-eye-slash"></i>
+                </div>
+                <button type="submit" class="btn-primary">Signup</button>
+                <p class="switch-text">Already have an account? <a href="#">Login</a></p>
+                
+                <div class="separator">Or</div>
+                
+                <button type="button" class="btn-social facebook">
+                    <i class="fa-brands fa-facebook-f"></i> Login with Facebook
+                </button>
+                <button type="button" class="btn-social google">
+                    <img src="https://media.wired.com/photos/5926ffe47034dc5f91bed4e8/3:2/w_2560%2Cc_limit/google-logo.jpg" alt="Google"> Login with Google
+                </button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

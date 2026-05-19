@@ -1,0 +1,45 @@
+body{
+    font-family: Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+input{
+    height: 30px;
+    padding-left: 10px;
+    font-size: 10px;
+    width: 95%;
+}
+
+button{
+    height: 30px;
+    width: 100%;
+    background-color: blue;
+}
+
+#dynamicText{
+    margin-top: 10px;
+    font-size: 10px;
+    color: green;
+}

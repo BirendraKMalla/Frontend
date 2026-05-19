@@ -1,0 +1,57 @@
+/* table ma row ra column grid ma opposite hunxa */
+/* grid ma horizontal column hunxa ra vertical row hunxa  */
+
+/* flexbox and grid chalauna parema parent div(container) lai chalauna parxa */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+.box{
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.box1{
+    /* grid-column-start: 1; */
+    /* grid-column-end: 6; */
+    /* grid-row-start: 1; */
+    /* grid-row-end: 2; */
+
+    /* row-start/column-start/row-end/column-end */
+    grid-area:1/1/2/6 ;
+}
+
+.box2{
+    grid-area:2/1/4/3 ;
+}
+
+.box3{
+    grid-area: 2/3/3/5;
+
+}
+.box4{
+    grid-area: 2/5/4/6;
+}
+
+.box5{
+    grid-area: 3/3/5/5;
+}
+
+.box6{
+    grid-area:4/1/5/3 ;
+}
+
+.box7{
+    grid-area: 4/5/5/6;
+}
+
+.box8{
+    grid-area: 5/1/5/6;
+}
