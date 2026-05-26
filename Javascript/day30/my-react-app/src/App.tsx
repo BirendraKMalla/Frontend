@@ -54,12 +54,12 @@ const App = () => {
           <img src={companyLogo} alt="" className="bg-white h-8" />
         </div>
         <div className="flex justify-between w-55/100 items-center">
-          <button className="text-white text-xs rounded-md p-1.5 px-4 hover:bg-amber-400">Home</button>
-          <button className="text-white text-xs rounded-md p-1.5 px-4 hover:bg-amber-400">About</button>
-          <button className="text-white text-xs rounded-md p-1.5 px-4 hover:bg-amber-400">Collection</button>
-          <button className="text-white text-xs rounded-md p-1.5 px-4 hover:bg-amber-400">Contact</button>
-          <button className="text-white text-xs rounded-md p-1.5 px-4 hover:bg-amber-400">Login</button>
-          <button className="text-white text-xs rounded-md p-1.5 px-4 hover:bg-amber-400">Shop now</button>
+          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Home</button>
+          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">About</button>
+          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Collection</button>
+          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Contact</button>
+          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Login</button>
+          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Shop now</button>
           <MdLightMode className="text-white text-s"/>
         </div>
       </div>
