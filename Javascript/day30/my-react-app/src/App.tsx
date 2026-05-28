@@ -1,9 +1,10 @@
 import React from "react";
 // import mountainImg from "./assets/mountain.jpg";
 // import { TiSocialFacebook } from "react-icons/ti";
-import { FaPhoneAlt } from "react-icons/fa";
-import companyLogo from "./assets/6563382.jpg";
-import { MdLightMode } from "react-icons/md";
+// import { FaPhoneAlt } from "react-icons/fa";
+// import companyLogo from "./assets/6563382.jpg";
+// import { MdLightMode } from "react-icons/md";
+import Navbar from "./components/Navbar/Navbar";
 
 const App = () => {
   return (
@@ -37,32 +38,35 @@ const App = () => {
     //     </button>
     //   </div>
     // </div>
-    <div className="bg-black w-screen h-screen">
-      <div className="bg-amber-400 w-screen h-7 flex justify-between items-center px-4">
-        <div className="flex items-center gap-1">
-          <FaPhoneAlt className="text-white text-xs" />
-          <p className="text-white text-xs">+977-8565685</p>
-        </div>
-        <div>
-          <p className="text-white text-xs">
-            Free Shipping on Orders Above Rs.2000
-          </p>
-        </div>
-      </div>
-      <div className="w-screen h-12 flex items-center justify-between px-3">
-        <div>
-          <img src={companyLogo} alt="" className="bg-white h-8" />
-        </div>
-        <div className="flex justify-between w-55/100 items-center">
-          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Home</button>
-          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">About</button>
-          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Collection</button>
-          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Contact</button>
-          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Login</button>
-          <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Shop now</button>
-          <MdLightMode className="text-white text-s"/>
-        </div>
-      </div>
+    // <div className="bg-black w-screen h-screen">
+    //   <div className="bg-amber-400 w-screen h-7 flex justify-between items-center px-4">
+    //     <div className="flex items-center gap-1">
+    //       <FaPhoneAlt className="text-white text-xs" />
+    //       <p className="text-white text-xs">+977-8565685</p>
+    //     </div>
+    //     <div>
+    //       <p className="text-white text-xs">
+    //         Free Shipping on Orders Above Rs.2000
+    //       </p>
+    //     </div>
+    //   </div>
+    //   <div className="w-screen h-12 flex items-center justify-between px-3">
+    //     <div>
+    //       <img src={companyLogo} alt="" className="bg-white h-8" />
+    //     </div>
+    //     <div className="flex justify-between w-55/100 items-center">
+    //       <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Home</button>
+    //       <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">About</button>
+    //       <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Collection</button>
+    //       <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Contact</button>
+    //       <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Login</button>
+    //       <button className="text-white text-xs font-bold rounded-md p-1.5 px-4 hover:bg-amber-400 transition-colors duration-300 ">Shop now</button>
+    //       <MdLightMode className="text-white text-s"/>
+    //     </div>
+    //   </div>
+    // </div>
+    <div>
+      <Navbar/>
     </div>
   );
 };
