@@ -13,12 +13,12 @@ const Navbar = () => {
 
   return (
     <div>
-      <div>
+      <div className="bg-primary">
         {/* top */}
-        <div className="flex justify-between items-center bg-amber-400 text-white">
+        <div className=" container hidden md:flex justify-between  items-center">
           <div className="flex items-center gap-5 p-2">
             <FaPhoneAlt />
-            <p>+977 9857463728</p>
+            <span>+977 9857463728</span>
           </div>
           <div className="p-2">
             <p>Free Shipping on Orders Above Rs. 2000</p>
@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="flex justify-between dark:bg-black dark:text-white pr-2">
             <img src={Logo} alt="logo" className="w-20" />
             <div>
-              <ul className="flex justify-between items-center gap-5 h-full">
+              <ul className="hidden md:flex items-center gap-3 font-semibold h-full">
                 {Navlink.map((item) => (
                   <li
                     key={item.id}
@@ -39,18 +39,18 @@ const Navbar = () => {
                     <a href={item.path}>{item.name}</a>
                   </li>
                 ))}
-                <button className="bg-yellow-500 px-5 py-1 rounded-xl font-semibold">
+                <button className="primary-btn bg-yellow-500 px-5 py-1 rounded-xl font-semibold">
                   Shop now
                 </button>
                 <Darkmode />
               </ul>
             </div>
-            <div>
+            <div className="flex md:hidden items-center gap-3">
               <Darkmode />
               {showMenu ? (
-                <RxCross1 onClick={handleMenuToggle} />
+                <RxCross1 onClick={handleMenuToggle} className="text-2xl"/>
               ) : (
-                <RxHamburgerMenu onClick={handleMenuToggle} />
+                <RxHamburgerMenu onClick={handleMenuToggle} className="text-2xl"/>
               )}
             </div>
           </div>
