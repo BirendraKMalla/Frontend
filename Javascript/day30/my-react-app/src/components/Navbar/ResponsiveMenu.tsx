@@ -7,7 +7,7 @@ type ResponsiveMenuProps = {
 
 const ResponsiveMenu = ({ showMenu }: ResponsiveMenuProps) => {
   return (
-    <div className={`${showMenu ? "left-0" : "left-[-100%]"} fixed top-0 dark:bg-gray-900 h-screen w-[75%] dark:text-white px-8 py-8 duration-500`}>
+    <div className={`${showMenu ? "left-0" : "left-[-100%]"} fixed top-0 dark:bg-gray-900 h-screen w-[75%] dark:text-white px-8 py-8 duration-500 z-50`}>
       <div>
         <img src={Logo} alt="logo" className="h-16 w-16" />
       </div>
